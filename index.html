@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0e2207" />
+    <meta
+      name="description"
+      content="Trusted fertilizers, certified seeds, crop protection and agricultural guidance from Mission Fertilizers."
+    />
+    <title>Mission Fertilizers | Growing Better Together</title>
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/tailwind-config.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="./css/style.css?v=2" />
+  </head>
+  <body class="font-body antialiased">
+    <div id="navbar"></div>
+
+    <main id="page-content">
+      <!-- Hero Section -->
+      <section
+        id="home"
+        class="hero-slider relative isolate flex min-h-[620px] items-center justify-center overflow-hidden bg-menu-text text-center text-white md:min-h-[740px]"
+      >
+        <article
+          class="hero-slide is-active"
+          data-hero-slide
+          aria-hidden="false"
+          style="
+            --hero-image: url(&quot;https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/main-slider-1-1.jpg&quot;);
+          "
+        >
+          <div class="hero-copy">
+            <p class="mb-7 text-lg font-medium sm:text-2xl">
+              Welcome to Mission Fertilizers
+            </p>
+            <h1
+              class="mx-auto w-full max-w-6xl text-4xl font-bold leading-[.98] sm:text-6xl md:text-7xl lg:text-8xl xl:text-[112px]"
+            >
+              Trusted<br class="sm:hidden" />
+              Solutions
+            </h1>
+            <a class="hero-cta" href="products.html"
+              >Discover More
+              <span class="hero-cta-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg></span
+            ></a>
+          </div>
+        </article>
+        <article
+          class="hero-slide"
+          data-hero-slide
+          aria-hidden="true"
+          style="
+            --hero-image: url(&quot;https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/main-slider-1-2.jpg&quot;);
+          "
+        >
+          <div class="hero-copy">
+            <p class="mb-7 text-lg font-medium sm:text-2xl">
+              Quality You Can Trust
+            </p>
+            <h2
+              class="mx-auto w-full max-w-6xl text-4xl font-bold leading-[.98] sm:text-6xl md:text-7xl lg:text-8xl xl:text-[112px]"
+            >
+              Crop<br class="sm:hidden" />
+              Nutrition
+            </h2>
+            <a class="hero-cta" href="index.html#services"
+              >Explore Our Services
+              <span class="hero-cta-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg></span
+            ></a>
+          </div>
+        </article>
+        <article
+          class="hero-slide"
+          data-hero-slide
+          aria-hidden="true"
+          style="
+            --hero-image: url(&quot;https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/main-slider-1-3.jpg&quot;);
+          "
+        >
+          <div class="hero-copy">
+            <p class="mb-7 text-lg font-medium sm:text-2xl">
+              Supporting Modern Agriculture
+            </p>
+            <h2
+              class="mx-auto w-full max-w-6xl text-4xl font-bold leading-[.98] sm:text-6xl md:text-7xl lg:text-8xl xl:text-[112px]"
+            >
+              Future<br class="sm:hidden" />
+              Generations
+            </h2>
+            <a class="hero-cta" href="contact.html"
+              >Talk to Our Team
+              <span class="hero-cta-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg></span
+            ></a>
+          </div>
+        </article>
+        <button
+          class="hero-arrow hero-arrow-prev"
+          type="button"
+          aria-label="Previous slide"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            aria-hidden="true"
+          >
+            <path d="M19 12H5m7 7-7-7 7-7" />
+          </svg>
+        </button>
+        <button
+          class="hero-arrow hero-arrow-next"
+          type="button"
+          aria-label="Next slide"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            aria-hidden="true"
+          >
+            <path d="M5 12h14m-7-7 7 7-7 7" />
+          </svg>
+        </button>
+      </section>
+
+      <!-- About Section -->
+      <section
+        id="about"
+        class="relative mx-auto max-w-[1440px] overflow-hidden px-5 py-20 sm:px-8 md:py-28 lg:px-12"
+      >
+        <div class="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
+          <div class="order-2 lg:order-1">
+            <p class="mb-3 text-lg font-semibold text-primary">
+              About Mission Fertilizers
+            </p>
+            <h2
+              class="font-display text-5xl font-bold uppercase leading-[.98] text-menu-text sm:text-6xl lg:text-7xl"
+            >
+              Your Trusted Agricultural Partner for Sustainable Growth
+            </h2>
+            <img
+              class="my-5 h-5 w-20 object-contain object-left"
+              src="https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/section-title-icon-1.png"
+              alt=""
+            />
+            <p class="mb-4 text-xl font-bold text-primary">
+              We've 20 years of agriculture farming experience.
+            </p>
+            <p class="max-w-xl text-base leading-8 text-circle sm:text-lg">
+              Our goal is to provide farmers with dependable fertilizers,
+              certified seeds, and crop protection solutions that improve
+              productivity while supporting sustainable farming practices.
+            </p>
+            <ul class="mt-6 space-y-3 text-lg font-bold text-menu-text">
+              <li class="flex items-center gap-3">
+                <span class="check-mark">✓</span>Premium agricultural products
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="check-mark">✓</span>Certified quality standards
+              </li>
+            </ul>
+            <div class="mt-8 flex items-center gap-4">
+              <img
+                class="h-16 w-16 rounded-full border-4 border-secondary object-cover"
+                src="https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/about-one-ceo-img.jpg"
+                alt="Mission Fertilizers leadership"
+              />
+              <div>
+                <p class="font-brand text-2xl text-circle">Mission Team</p>
+                <p class="text-sm font-medium text-circle">
+                  Agricultural specialists
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="order-1 mx-auto w-full max-w-[560px] lg:order-2">
+            <div class="about-visual">
+              <img
+                class="about-main-image"
+                src="https://images.unsplash.com/photo-1602867741746-6df80f40b3f6?q=80&w=1100&auto=format&fit=crop"
+                alt="Healthy crops growing in a cultivated field"
+                loading="lazy"
+              />
+              <img
+                class="about-detail-image"
+                src="https://images.unsplash.com/photo-1563760836797-bf5d5f9d2243?q=80&w=700&auto=format&fit=crop"
+                alt="Agricultural products ready for farmers"
+                loading="lazy"
+              />
+              <a
+                class="about-play"
+                href="#gallery"
+                aria-label="Explore our field gallery"
+                ><span
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 5v14l11-7z" /></svg></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section
+        id="services"
+        class="relative overflow-hidden bg-overlay px-5 py-20 sm:px-8 md:py-28"
+      >
+        <div class="relative z-10 mx-auto max-w-[1440px]">
+          <div class="mx-auto mb-12 max-w-2xl text-center">
+            <p class="mb-3 text-lg font-semibold text-primary">Our Services</p>
+            <h2
+              class="font-display text-5xl font-bold uppercase leading-none text-sub-heading sm:text-6xl md:text-7xl"
+            >
+              Complete Agricultural Solutions Under One Roof
+            </h2>
+            <img
+              class="mx-auto mt-5 h-5 w-20 object-contain"
+              src="https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/section-title-icon-1.png"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div class="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+            <article class="service-card group">
+              <div class="service-image-wrap">
+                <img
+                  src="https://media.istockphoto.com/id/2252712121/photo/bio-organic-and-synthetic-fertilizer-products-on-wooden-board-in-farm.webp?a=1&b=1&s=612x612&w=0&k=20&c=d_DlYy21X-AybLFz8DYhggc5RlHlJ24RDhT_tyy40Zc="
+                  alt="Fertilizer products"
+                  loading="lazy"
+                /><span class="service-icon">
+                  <i data-lucide="wheat" class="w-10 h-10"></i>
+                </span>
+              </div>
+              <div class="p-7 text-center">
+                <h3
+                  class="mb-3 text-2xl font-bold text-sub-heading transition group-hover:text-primary"
+                >
+                  Fertilizers & Nutrition
+                </h3>
+                <p class="leading-7 text-text">
+                  Balanced nutrition solutions that improve soil fertility and
+                  crop development.
+                </p>
+              </div>
+            </article>
+            <article class="service-card group">
+              <div class="service-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1563760836797-bf5d5f9d2243?q=80&w=900&auto=format&fit=crop"
+                  alt="Seeds in a farmer's hand"
+                  loading="lazy"
+                /><span class="service-icon"
+                  ><i data-lucide="leaf" class="w-10 h-10"></i
+                ></span>
+              </div>
+              <div class="p-7 text-center">
+                <h3
+                  class="mb-3 text-2xl font-bold text-sub-heading transition group-hover:text-primary"
+                >
+                  Hybrid Seeds
+                </h3>
+                <p class="leading-7 text-text">
+                  Certified, high-yield crop and vegetable seeds with superior
+                  germination potential.
+                </p>
+              </div>
+            </article>
+            <article class="service-card group">
+              <div class="service-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1627920769842-6887c6df05ca?q=80&w=900&auto=format&fit=crop"
+                  alt="Crop protection in a green field"
+                  loading="lazy"
+                /><span class="service-icon">
+                  <i data-lucide="shield-check" class="w-10 h-10"></i>
+                </span>
+              </div>
+              <div class="p-7 text-center">
+                <h3
+                  class="mb-3 text-2xl font-bold text-sub-heading transition group-hover:text-primary"
+                >
+                  Crop Protection
+                </h3>
+                <p class="leading-7 text-text">
+                  Trusted solutions designed to protect crops throughout the
+                  growing season.
+                </p>
+              </div>
+            </article>
+            <article class="service-card group">
+              <div class="service-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=900&auto=format&fit=crop"
+                  alt="Agricultural advisor in a field"
+                  loading="lazy"
+                /><span class="service-icon">
+                  <i data-lucide="headset" class="w-10 h-10"></i>
+                </span>
+              </div>
+              <div class="p-7 text-center">
+                <h3
+                  class="mb-3 text-2xl font-bold text-sub-heading transition group-hover:text-primary"
+                >
+                  Agricultural Consultation
+                </h3>
+                <p class="leading-7 text-text">
+                  Expert agronomic guidance to help farmers maximize yield and
+                  productivity.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div
+          class="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-[url('https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/services-one-shape-1.png')] bg-cover bg-bottom opacity-20"
+        ></div>
+      </section>
+
+      <!-- Call to Action Section -->
+      <section
+        class="cta-banner relative isolate flex min-h-[440px] items-center justify-center overflow-hidden px-5 py-20 text-center text-white sm:min-h-[540px]"
+        style="
+          --cta-image: url(&quot;https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/unbeatable-one-bg.jpg&quot;);
+        "
+      >
+        <div
+          class="cta-frame relative z-10 flex min-h-[330px] w-full max-w-[1160px] flex-col items-center justify-center border border-white/20 px-5 py-12 sm:px-10"
+        >
+          <p class="mb-4 text-base text-secondary sm:text-lg">
+            Supporting Modern Agriculture
+          </p>
+          <h2
+            class="max-w-4xl text-3xl font-bold leading-tight sm:text-5xl lg:text-6xl"
+          >
+            Better agricultural solutions<br class="hidden sm:block" />
+            yield better crops
+          </h2>
+          <a class="hero-cta mt-8" href="contact.html"
+            >Contact Our Team
+            <span class="hero-cta-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6" /></svg></span
+          ></a>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section
+        id="testimonials"
+        class="relative overflow-hidden bg-[#fefdfc] px-5 py-20 sm:px-8 md:py-28"
+      >
+        <div class="relative z-10 mx-auto max-w-[1440px]">
+          <div class="mb-10 text-center">
+            <p class="mb-2 text-lg font-semibold text-primary">
+              Our Testimonials
+            </p>
+            <h2
+              class="font-display text-5xl font-bold leading-none text-sub-heading sm:text-6xl md:text-7xl"
+            >
+              What Our Farmers Say
+            </h2>
+            <img
+              class="mx-auto mt-5 h-5 w-20 object-contain"
+              src="https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/section-title-icon-1.png"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div class="grid gap-6 md:grid-cols-3">
+            <figure class="testimonial-card">
+              <div class="mb-5 flex items-center gap-4">
+                <img
+                  class="h-16 w-16 rounded-full border-4 border-white object-cover shadow"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=faces"
+                  alt="Farmer portrait"
+                  loading="lazy"
+                /><span class="quote-mark" aria-hidden="true">“</span>
+              </div>
+              <blockquote class="text-base leading-8 text-circle">
+                “The team helped us choose a nutrition plan that suited our soil
+                and our crop. We have a dependable partner through every
+                season.”
+              </blockquote>
+              <figcaption class="testimonial-name">
+                <strong>Ali Raza</strong><span>Grower, Punjab</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <div class="mb-5 flex items-center gap-4">
+                <img
+                  class="h-16 w-16 rounded-full border-4 border-white object-cover shadow"
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&fit=crop&crop=faces"
+                  alt="Farmer portrait"
+                  loading="lazy"
+                /><span class="quote-mark" aria-hidden="true">“</span>
+              </div>
+              <blockquote class="text-base leading-8 text-circle">
+                “Their certified seeds and practical advice made a real
+                difference to our planning. The service is thoughtful and
+                reliable.”
+              </blockquote>
+              <figcaption class="testimonial-name">
+                <strong>Samina Noor</strong><span>Farm owner, Lahore</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <div class="mb-5 flex items-center gap-4">
+                <img
+                  class="h-16 w-16 rounded-full border-4 border-white object-cover shadow"
+                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=160&h=160&fit=crop&crop=faces"
+                  alt="Farmer portrait"
+                  loading="lazy"
+                /><span class="quote-mark" aria-hidden="true">“</span>
+              </div>
+              <blockquote class="text-base leading-8 text-circle">
+                “We appreciate getting clear recommendations and quality crop
+                protection products from one trusted local team.”
+              </blockquote>
+              <figcaption class="testimonial-name">
+                <strong>Hassan Mahmood</strong><span>Dealer, Faisalabad</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Statistics Section -->
+      <section
+        id="statistics"
+        class="relative px-5 pb-28 pt-12 sm:px-8 md:pb-36"
+      >
+        <div
+          class="mx-auto grid max-w-[1240px] grid-cols-2 gap-x-6 gap-y-12 lg:grid-cols-4"
+        >
+          <div class="stat-item">
+            <span class="stat-leaves" aria-hidden="true">❧</span
+            ><strong data-count="500">0+</strong><span>Happy Farmers</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-leaves" aria-hidden="true">❧</span
+            ><strong data-count="150">0+</strong><span>Dealers</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-leaves" aria-hidden="true">❧</span
+            ><strong data-count="80">0+</strong
+            ><span>Agricultural Products</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-leaves" aria-hidden="true">❧</span
+            ><strong data-count="20">0+</strong><span>Years of Service</span>
+          </div>
+        </div>
+        <div
+          class="expert-strip mx-auto mt-14 flex max-w-[1240px] flex-col items-center gap-6 rounded-lg bg-secondary px-6 py-8 text-center lg:flex-row lg:justify-between lg:px-14 lg:text-left"
+        >
+          <h2
+            class="font-display text-5xl font-bold uppercase leading-none text-menu-text sm:text-6xl"
+          >
+            Growth Solutions
+          </h2>
+          <div class="hidden h-px flex-1 bg-circle/30 lg:block"></div>
+          <div>
+            <p class="mb-1 text-sm font-medium text-menu-text">
+              Contact Our Experts
+            </p>
+            <a
+              class="text-2xl font-bold text-menu-text transition hover:text-white sm:text-3xl"
+              href="tel:+9288009850"
+              >+92 (8800)-9850</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section
+        id="products"
+        class="relative isolate overflow-hidden bg-white px-5 pb-20 pt-20 sm:px-8 md:pb-28 md:pt-28"
+      >
+        <div class="absolute inset-x-0 top-0 -z-10 h-[560px] bg-primary"></div>
+        <div class="relative z-10 mx-auto max-w-[1440px]">
+          <div class="mb-10 text-center">
+            <p class="mb-2 text-lg font-semibold text-pro-text">Our Products</p>
+            <h2
+              class="font-display text-5xl font-bold uppercase leading-[1.05] text-white sm:text-6xl md:text-7xl"
+            >
+              Quality Agricultural Products for<br class="hidden md:block" />
+              Better Crop Performance
+            </h2>
+            <img
+              class="mx-auto mt-5 h-5 w-20 object-contain"
+              src="https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/section-title-icon-1.png"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+            <a href="products.html" class="product-tile"
+              ><img
+                src="https://plus.unsplash.com/premium_photo-1678371210267-44e0aeee4b72?w=700&auto=format&fit=crop&q=80"
+                alt="Certified crop seeds"
+                loading="lazy"
+              /><span class="product-shade"></span
+              ><span class="product-caption"
+                ><small>Pure</small><i></i
+                ><strong>Certified Seeds</strong></span
+              ></a
+            >
+            <a href="products.html" class="product-tile"
+              ><img
+                src="https://images.unsplash.com/photo-1593999094742-4f5280054b23?w=700&auto=format&fit=crop&q=80"
+                alt="Crop protection products"
+                loading="lazy"
+              /><span class="product-shade"></span
+              ><span class="product-caption"
+                ><small>Advanced</small><i></i
+                ><strong>Crop Protection Chemicals</strong></span
+              ></a
+            >
+            <a href="products.html" class="product-tile"
+              ><img
+                src="https://images.unsplash.com/photo-1590415024718-798cdaab96dd?w=700&auto=format&fit=crop&q=80"
+                alt="Plant growth and healthy crops"
+                loading="lazy"
+              /><span class="product-shade"></span
+              ><span class="product-caption"
+                ><small>Organic</small><i></i
+                ><strong>Plant Growth Solutions</strong></span
+              ></a
+            >
+            <a href="products.html" class="product-tile"
+              ><img
+                src="https://images.unsplash.com/photo-1719532520316-4cc0d8886ab7?w=700&auto=format&fit=crop&q=80"
+                alt="Premium fertilizers"
+                loading="lazy"
+              /><span class="product-shade"></span
+              ><span class="product-caption"
+                ><small>High Grade</small><i></i
+                ><strong>Premium Fertilizers</strong></span
+              ></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="bg-overlay px-5 py-20 sm:px-8 md:py-28">
+        <div class="mx-auto max-w-[1440px]">
+          <div
+            class="mb-10 flex flex-col items-start justify-between gap-5 sm:flex-row sm:items-end"
+          >
+            <div>
+              <p class="mb-2 text-lg font-semibold text-primary">
+                From Our Fields
+              </p>
+              <h2
+                class="font-display text-5xl font-bold uppercase leading-none text-sub-heading sm:text-6xl"
+              >
+                Growing Together
+              </h2>
+            </div>
+            <p class="max-w-lg leading-7 text-circle">
+              A look at the crops, people, and agricultural work behind every
+              growing season.
+            </p>
+          </div>
+          <div
+            class="grid h-[620px] min-h-0 grid-cols-2 grid-rows-2 gap-3 sm:gap-5 md:grid-cols-4"
+          >
+            <img
+              class="gallery-image col-span-2 row-span-2"
+              src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&auto=format&fit=crop&q=80"
+              alt="Wide green farmland at sunrise"
+              loading="lazy"
+            />
+            <img
+              class="gallery-image"
+              src="https://images.unsplash.com/photo-1563760836797-bf5d5f9d2243?q=80&w=700&auto=format&fit=crop"
+              alt="Young plants in a field"
+              loading="lazy"
+            />
+            <img
+              class="gallery-image"
+              src="https://images.unsplash.com/photo-1590415024718-798cdaab96dd?w=700&auto=format&fit=crop&q=80"
+              alt="Agricultural harvest"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section
+        id="contact"
+        class="mx-auto max-w-[1440px] px-5 py-20 sm:px-8 md:py-28"
+      >
+        <div
+          class="grid items-center gap-12 lg:grid-cols-[.8fr_1.2fr] lg:gap-20"
+        >
+          <div>
+            <p class="mb-3 text-lg font-semibold text-primary">Contact Now</p>
+            <h2
+              class="font-display text-5xl font-bold uppercase leading-none text-menu-text sm:text-6xl md:text-7xl"
+            >
+              Get in touch now
+            </h2>
+            <img
+              class="my-5 h-5 w-20 object-contain object-left"
+              src="https://bracketweb.com/agrionwp/wp-content/uploads/2023/01/section-title-icon-1.png"
+              alt=""
+              loading="lazy"
+            />
+            <p class="mb-8 max-w-lg leading-7 text-circle">
+              Whether you're looking for fertilizers, certified seeds, crop
+              protection, or agricultural guidance, our team is ready to assist.
+            </p>
+            <div class="space-y-5">
+              <a class="contact-line" href="tel:+9288009850"
+                ><span class="contact-icon">
+                  <i data-lucide="phone" class="w-5 h-5"></i> </span
+                ><span
+                  ><small>Have a question?</small
+                  ><strong>+92 (8800)-9850</strong></span
+                ></a
+              >
+              <a class="contact-line" href="mailto:needhelp@company.com">
+                <span class="contact-icon">
+                  <i data-lucide="mail" class="w-5 h-5"></i>
+                </span>
+                <span
+                  ><small>Write an email</small
+                  ><strong>needhelp@company.com</strong></span
+                ></a
+              >
+              <a
+                class="contact-line"
+                href="https://maps.app.goo.gl/BqXnSwJwt65qag3c8"
+                target="_blank"
+                rel="noreferrer"
+                ><span class="contact-icon">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i> </span
+                ><span
+                  ><small>Visit us</small
+                  ><strong>Johar Town, Lahore, PK</strong></span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="contact-form-wrap">
+            <form id="contact-form" class="relative z-10 space-y-4" novalidate>
+              <div class="grid gap-4 sm:grid-cols-2">
+                <label class="form-label"
+                  >Your name<input
+                    class="form-input"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    minlength="3"
+                    placeholder="Your Name"
+                /></label>
+                <label class="form-label"
+                  >Email address<input
+                    class="form-input"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    placeholder="Email Address"
+                /></label>
+              </div>
+              <label class="form-label"
+                >Message<textarea
+                  class="form-input min-h-36 resize-y"
+                  name="message"
+                  required
+                  minlength="10"
+                  maxlength="5000"
+                  placeholder="Write a message"
+                ></textarea>
+              </label>
+              <div class="flex flex-wrap items-center gap-4">
+                <button class="hero-cta !mt-0" type="submit">
+                  Contact Our Team
+                  <span class="hero-cta-icon">
+                    <i data-lucide="arrow-right"></i>
+                  </span>
+                </button>
+                <p
+                  id="contact-status"
+                  class="text-sm font-semibold"
+                  role="status"
+                  aria-live="polite"
+                ></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="./js/cart.js" defer></script>
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>

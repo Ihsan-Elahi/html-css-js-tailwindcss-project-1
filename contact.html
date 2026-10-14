@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Mission Fertilizers for fertilizers, certified seeds, crop protection, and agricultural guidance.">
+  <title>Mission Fertilizers | Contact</title>
+  <link rel="icon" href="./assets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./js/tailwind-config.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="./css/style.css?v=2">
+</head>
+<body class="font-body antialiased">
+  <div id="navbar"></div>
+  <main id="page-content" class="min-w-0">
+    <header class="bg-overlay px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
+      <div class="mx-auto max-w-[1440px]">
+        <nav class="mb-3 text-sm text-circle" aria-label="Breadcrumb">
+          <a class="hover:text-primary" href="index.html">Home</a>
+          <span aria-hidden="true"> / </span>
+          <span aria-current="page">Contact</span>
+        </nav>
+        <p class="mb-2 text-sm font-semibold text-primary">Contact Now</p>
+        <h1 class="font-display text-5xl font-bold uppercase leading-none text-menu-text sm:text-6xl">Get in touch</h1>
+      </div>
+    </header>
+
+    <section class="mx-auto max-w-[1440px] px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+      <div class="grid items-start gap-12 lg:grid-cols-[.8fr_1.2fr] lg:gap-16">
+        <div class="min-w-0">
+          <p class="mb-8 max-w-lg leading-7 text-circle">
+            Whether you're looking for fertilizers, certified seeds, crop protection, or agricultural guidance, our team is ready to assist.
+          </p>
+          <div class="space-y-5">
+            <a class="contact-line" href="tel:+9288009850">
+              <span class="contact-icon"><i data-lucide="phone" class="h-5 w-5" aria-hidden="true"></i></span>
+              <span><small>Have a question?</small><strong>+92 (8800)-9850</strong></span>
+            </a>
+            <a class="contact-line" href="mailto:needhelp@company.com">
+              <span class="contact-icon"><i data-lucide="mail" class="h-5 w-5" aria-hidden="true"></i></span>
+              <span><small>Write an email</small><strong>needhelp@company.com</strong></span>
+            </a>
+            <a class="contact-line" href="https://maps.app.goo.gl/BqXnSwJwt65qag3c8" target="_blank" rel="noreferrer">
+              <span class="contact-icon"><i data-lucide="map-pin" class="h-5 w-5" aria-hidden="true"></i></span>
+              <span><small>Visit us</small><strong>Johar Town, Lahore, PK</strong></span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap min-w-0">
+          <form id="contact-form" class="relative z-10 space-y-4" novalidate>
+            <div class="grid gap-4 sm:grid-cols-2">
+              <label class="form-label">Your name
+                <input class="form-input" name="name" type="text" autocomplete="name" required minlength="3" placeholder="Your Name">
+              </label>
+              <label class="form-label">Email address
+                <input class="form-input" name="email" type="email" autocomplete="email" required placeholder="Email Address">
+              </label>
+            </div>
+            <label class="form-label">Message
+              <textarea class="form-input min-h-36 resize-y" name="message" required minlength="10" maxlength="5000" placeholder="Write a message"></textarea>
+            </label>
+            <div class="flex flex-wrap items-center gap-4">
+              <button class="hero-cta !mt-0" type="submit">
+                Contact Our Team
+                <span class="hero-cta-icon"><i data-lucide="arrow-right" aria-hidden="true"></i></span>
+              </button>
+              <p id="contact-status" class="text-sm font-semibold" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="footer"></div>
+  <script src="./js/cart.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
